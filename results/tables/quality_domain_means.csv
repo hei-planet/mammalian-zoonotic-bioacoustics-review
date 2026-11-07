@@ -1,0 +1,6 @@
+domain_code,n_criteria,max_raw_score,mean_normalized_score
+Score,3,6,0.673611
+Score.1,2,4,0.833333
+Score.2,4,8,0.645833
+Score.3,4,8,0.859375
+Overall,13,26,0.746795

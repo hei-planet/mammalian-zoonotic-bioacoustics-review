@@ -1,0 +1,94 @@
+id,Title,Authors,Year,DOI/Link,Taxa Order,Species
+3,Improving acoustic species identification using data augmentation within a deep learning framework,"Macisaac  J., Newson  S., Ashton-Butt  A., Pearce  H., Milner  B.",2024,https://doi.org/10.1016/j.ecoinf.2024.102851,Rodentia,"Brown rat (Rattus rattus)
+Harvest mouse (Micromys minutus)
+Black rat (Rattus norvegicus)
+Yellow necked mouse (Apodemus flavicollis)
+Wood mouse (Apodemus sylvaticus)
+House mouse (Mus musculus)
+Common shrew (Sorex araneus)
+Water vole (Arvicola amphibius)
+Pygmy shrew (Sorex minutus)
+Hazel dormouse (Muscardinus avellanarius)
+Bicoloured shrew (Crocidura leucodon)
+Striped field mouse (Apodemus agrarius)
+Field vole (Microtus agrestis)
+Greater white-toothed shrew (Crocidura russula)
+Edible dormouse (Glis glis)
+Lesser white-toothed shrew (Crocidura suaveolens)
+Water shrew (Neomys fodiens)
+Forest dormouse (Dryomys nitedula)"
+9,Automated classification of bat echolocation call recordings with artificial intelligence,"Tabak  M. A., Murray  K. L., Reed  A. M., Lombardi  J. A., Bay  K. J.",2022,https://doi.org/10.1016/j.ecoinf.2021.101526,Chiroptera,"Big brown bat (Eptesicus fuscus)
+Silver-haired bat (Lasionycteris noctivagans)
+Eastern red bat (Lasiurus borealis)
+Hoary bat (Lasiurus cinereus)
+Gray bat (Myotis grisescens)
+Little brown bat (Myotis lucifugus)
+Indiana bat (Myotis sodalis)
+Northern long-eared bat (Myotis septentrionalis)
+Eastern small-footed bat (Myotis leibii)
+Evening bat (Nycticeius humeralis)
+Tri-colored bat (Perimyotis subflavus)"
+11,Bat2Web: A Framework for Real-Time Classification of Bat Species Echolocation Signals Using Audio Sensor Data,"Mahbub  T., Bhagwagar  A., Chand  P., Zualkernan  I., Judas  J., Dghaym  D.",2024,https://doi.org/10.3390/s24092899,Chiroptera,"Rhinopoma muscatellum
+Taphozous perforatus
+Pipistrellus kuhli
+Rhyneptesicus nasutus
+Eptesicus bottae
+Rousettus aegyptiacus
+Myotis emarginatus
+Asellia tridens"
+12,An Efficient Neural Network Design Incorporating Autoencoders for the Classification of Bat Echolocation Sounds,"Alipek  S., Maelzer  M., Paumen  Y., Schauer-Weisshahn  H., Moll  J.",2023,https://doi.org/10.3390/ani13162560,Chiroptera,"Pipistrellus pipistrellus
+Pipistrellus nathusii
+Pipistrellus pygmaeus
+Nyctalus noctula
+Barbastella barbastellus
+Myotis species (Myotis bechsteinii, Myotis daubentonii, Myotis myotis, Myotis mystacinus, Myotis nattereri, Myotis brandtii)
+Plecotus species (Plecotus auritus, Plecotus austriacus)
+Nyctaloid group species (Nyctalus noctula, Nyctalus leisleri, Eptesicus serotinus, Eptesicus nilssonii, Vespertilio murinus)"
+13,Development of a species identification system of Japanese bats from echolocation calls using convolutional neural networks,"Kobayashi  K., Masuda  K., Haga  C., Matsui  T., Fukui  D., Machimura  T.",2021,https://doi.org/10.1016/j.ecoinf.2021.101253,Chiroptera,"Barbastella pacifica
+Eptesicus japonensis
+Eptesicus nilssonii
+Hipposideros turpis
+Hypsugo alaschanicus
+Miniopterus fuliginosus
+Miniopterus fuscus
+Murina hilgendorfi
+Murina ryukyuana
+Murina ussuriensis
+Myotis bombinus
+Myotis frater
+Myotis gracilis
+Myotis ikonnikovi
+Myotis macrodactylus
+Myotis petax
+Myotis pruinosus
+Myotis rufoniger
+Myotis yanbarensis
+Nyctalus aviator
+Pipistrellus abramus
+Plecotus sacrimontis
+Rhinolophus cornutus cornutus
+Rhinolophus cornutus orii
+Rhinolophus ferrumequinum
+Rhinolophus pumilus
+Rhinolophus perditus
+Tadarida latouchei
+Vespertilio murinus
+Vespertilio sinensis"
+14,Bioacoustic classification of a small dataset of mammalian vocalisations using deep learning,"Manriquez  P. R., Kotz  S. A., Ravignani  A., de Boer  B.",2024,https://doi.org/10.1080/09524622.2024.2354468,Primates; Carnivora; Treeshrew,"Human infants
+Dogs (Canis familiaris)
+Chimpanzees (Pan troglodytes)
+Tree shrews (Tupaia belangeri)."
+15,Deep-learning-based central African primate species classification with MixUp and SpecAugment,"Pellegrini  T., Int Speech Commun  Assoc",2021,https://doi.org/10.21437/interspeech.2021-1911,Primates,"Chimpanzees
+Mandrills
+Red-capped mangabeys
+Guenon species (mixed group)"
+16,A Deep and Recurrent Architecture for Primate Vocalization Classification,"Müller  R., Illium  S., Linnhoff-Popien  C., Int Speech Commun  Assoc",2021,https://doi.org/10.21437/interspeech.2021-1274,Primates,"Chimpanzees
+Mandrills
+Red-capped mangabeys
+Guenon species (mixed group)"
+17,Identifying Distinguishing Acoustic Features in Felid Vocalizations Based on Call Type and Species Classification,"Bandara  D., Exantus  K., Navarro-Martinez  C., Patterson  M., Byun  A.",2023,https://doi.org/10.1007/s40857-023-00298-5,Carnivora,"Leopard (Panthera pardus)
+Clouded Leopard (Neofelis nebulosa)
+Lion (Panthera leo)
+Jaguar (Panthera onca)"
+24,"Using the BirdNET algorithm to identify wolves, coyotes, and potentially their interactions in a large audio dataset","Sossover  D., Burrows  K., Kahl  S., Wood  C. M.",2024,https://doi.org/10.1007/s13364-023-00725-y,Carnivora,"Gray Wolf (Canis lupus)
+Coyote (Canis latrans)"

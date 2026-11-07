@@ -1,0 +1,44 @@
+Category,Item,Description,Reported
+Paper information,id,Unique identifier assigned to each paper for internal reference,-
+,Authors,Full list of paper authors in citation format,-
+,Year,Publication year of the study,-
+,DOI/Link,Digital Object Identifier or URL for accessing the paper,-
+Data quality,Data volume,Is the dataset size justified for the study objectives?,"0: Not reported/insufficient
+1: Partially justified
+2: Fully justified with rationale"
+,Data balance,How well is class imbalance addressed and justified?,"0: Not addressed
+1: Acknowledged but not handled
+2: Properly addressed with methods"
+,Data quality control,Are data collection and annotation methods clearly described?,"0: Not described
+1: Partially described
+2: Fully described"
+Method practices,Model selection,Is the choice of model(s) properly motivated and justified?,"0: No justification
+1: Basic justification
+2: Full comparison"
+,Model validation,How thoroughly was the model's performance validated?,"0: No validation
+1: Basic validation
+2: Rigorous validation"
+Transparency of the studies,Method description,"How completely are the methods documented (preprocessing, features, model architecture)?","0: Incomplete
+1: Basic description
+2: Detailed description"
+,Code availability,Is the implementation code publicly available?,"0: Not available
+1: Partially available
+2: Fully available with documentation"
+,Data availability,Are the data and metadata publicly available or justified if not?,"0: Not available
+1: Available upon request
+2: Publicly available with documentation"
+,Technical specifications,"Are hyperparameters, dependencies, environmental settings, and model weights documented?","0: Not documented
+1: Partially documented
+2: Fully documented"
+Research completeness,Comparative analysis,Did the study run multiple experiments and compare results from different models/approaches?,"0: No comparison
+1: Limited comparison
+2: Comprehensive comparison"
+,Performance evaluation,How comprehensive is the performance evaluation?,"0: Basic metrics only
+1: Multiple metrics
+2: Full evaluation with analysis"
+,Ecological relevance,Is the ecological significance of the results discussed?,"0: Not discussed
+1: Briefly mentioned
+2: Fully analyzed"
+,Future directions,How well are limitations and future research directions addressed?,"0: Not addressed
+1: Briefly mentioned
+2: Detailed discussion"

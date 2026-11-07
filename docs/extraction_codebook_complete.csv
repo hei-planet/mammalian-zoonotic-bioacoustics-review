@@ -1,0 +1,52 @@
+Column,Type,Possible values,Description,Definition provenance
+id,numeric,,Unique identifier assigned to each paper for internal reference,Author source
+Title,text,,Title of the source publication,Provisional addition — author confirmation required
+Authors,text,,Full list of paper authors in citation format,Author source
+Year,numeric,,Publication year of the study,Author source
+DOI/Link,text,,Digital Object Identifier or URL for accessing the paper,Author source
+ML Algorithm Category,categorical,"- Traditional ML (SVM, Random Forest, Decision Trees, etc)
+- Deep Learning (CNN, RNN, LSTM, etc.)
+- Ensemble Methods (Boosting, Bagging, etc.)
+- Hybrid Approaches (Combined traditional ML and DL)",Broad classification of the machine learning approach,Author source
+ML Algorithm Specific,text,,"Exact name/version of the algorithm(s) used (e.g., ResNet50, Random Forest, LSTM)",Author source
+Data Representation,categorical,"- Raw Waveform
+- Spectrogram
+- Mel-spectrogram
+- MFCC
+- Custom Features",Format of the input data used to train the model,Author source
+Preprocessing Methods,categorical,"- Noise Reduction
+- Segmentation
+- Normalization
+- Augmentation
+- Feature Extraction
+- Band-pass Filtering",Techniques applied to clean or prepare the raw audio data,Author source
+Input Segment Length Seconds,numeric,,Duration of individual audio segments used for training/testing (in seconds),Author source; renamed
+Dataset Size Train,numeric,,Number of samples/recordings used for training the model,Author source; renamed
+Dataset Size Validation,numeric,,Number of samples/recordings used for validating the model,Author source
+Dataset Size Testing,numeric,,Number of samples/recordings used for testing the model,Author source
+Total Duration Hours,numeric,,Total duration of all recordings used in the study (in hours),Author source
+Data Availability,categorical,"- Public
+- Private
+- Upon request",Whether and where the dataset is publicly available,Author source
+Taxa Order,categorical,,Taxonomic order of the studied species,Author source
+Species,text,,Scientific names of the species included in the study,Author source
+Region Broad,categorical,"- Europe
+- Asia
+- North America
+- South America 
+- Africa 
+- Oceania",Continental region where recordings were collected,Author source
+Region Specific,text,,Countries or specific recording locations reported by the study,Provisional addition — author confirmation required
+Evaluation Method,categorical,"- Hold-out Validation (Simple train-test split, Train-validation-test split)
+- Cross-validation (k-fold CV, Stratified k-fold CV); specify k",Technique used to assess model performance,Author source
+Accuracy,numeric,,Overall classification accuracy (between 0 and 1),Author source
+Precision,numeric,,Precision score of the model (between 0 and 1),Author source
+Recall,numeric,,Recall score of the model (0-1 or percentage),Author source
+Specificity,numeric,,"Reported classification specificity (true negative rate), typically between 0 and 1",Provisional addition — author confirmation required
+F1 Score,numeric,,Harmonic mean of precision and recall (0-1 or percentage),Author source
+UAR,numeric,,Unweighted Average Recall across all classes.,Author source
+Has multiple experiments,categorical,"- 0 
+- 1","Indicates presence of more than one experiment (0 = no, 1 = yes)",Author source
+Focus,text,,,Author source
+Significant Findings,text,,Key results and conclusions from the study,Author source
+Recommendations for Future Research,text,,Authors' suggestions for future work and improvements,Author source

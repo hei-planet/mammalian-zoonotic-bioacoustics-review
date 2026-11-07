@@ -1,0 +1,4 @@
+category,unique_studies
+Hold-out Validation,18
+Cross-validation,5
+Hold-out + cross-validation,1

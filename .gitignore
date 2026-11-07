@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.venv/
+venv/
+data/private/
+*.asreview
+.DS_Store
+outputs/
+
+# Regenerated notebook plots, HTML, manifests and Plotly JavaScript
+results/figures/

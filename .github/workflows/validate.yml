@@ -1,0 +1,20 @@
+name: Reproduce review summaries
+on:
+  push:
+  pull_request:
+jobs:
+  reproducibility:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check repository file selection
+        run: python scripts/check_release_candidate.py
+      - name: Verify frozen input checksums
+        run: sha256sum -c data/SHA256SUMS
+      - name: Validate source tables and regenerate summaries
+        run: bash run_analysis.sh
+      - name: Confirm summary tables match committed outputs
+        run: git diff --exit-code -- results/tables/

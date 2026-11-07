@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite this reproducibility repository and the accompanying manuscript when using these materials. Manuscript publication metadata is pending."
+type: software
+title: "Reproducibility materials for Towards ML-based bioacoustics-based surveillance of mammal zoonotic reservoirs"
+version: "1.0.0"
+authors:
+  - given-names: Marina
+    family-names: Treskova
+  - given-names: Aurel Jundolf Selidji
+    family-names: Agbodoyetin
+  - given-names: Aness
+    family-names: Chelfat
+  - given-names: Senani
+    family-names: Dayabandara
+  - given-names: Peter
+    family-names: Fransson
+  - given-names: Richard Edward
+    family-names: Paul
+  - given-names: Joacim
+    family-names: Rocklöv
+repository-code: "https://github.com/hei-planet/mammalian-zoonotic-bioacoustics-review"
+license: MIT
+keywords:
+  - systematic review
+  - bioacoustics
+  - zoonotic reservoirs
+  - machine learning
+  - terrestrial mammals
